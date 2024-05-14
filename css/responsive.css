@@ -1,0 +1,469 @@
+/*
+====================================
+Medium Screen - Laptop/Desktop
+====================================
+*/
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+
+
+.container {
+	padding: 0 30px;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+.contact-left {
+    padding-left: 0px;
+}
+
+.container {
+	padding: 0 30px;
+}
+
+.contact-left p {
+	font-size: 15px;
+}
+
+}
+
+/*
+====================================
+Small Screen - iPad
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+.container {
+	padding: 0 30px;
+}
+
+
+.brief-left h1 {
+    font-size: 40px;
+}
+
+.brief-left p {
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+
+.brief-left h3 {
+    font-size: 14px;
+    padding-bottom: 24px;
+    padding-top: 6px;
+}
+
+.brief-right img {
+    height: 307px;
+    margin-top: 17px;
+}
+
+
+.contact-left {
+    padding-left: 0;
+}
+
+.contact-form {
+    width: 395px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 26px;
+}
+
+
+.contact-left h2 {
+    font-size: 31px;
+    padding-bottom: 14px;
+}
+
+
+.contact-left p {
+    font-size: 13px;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 35px;
+    font-weight: 400;
+}
+
+.contact-left ul li span a {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+
+
+.gallery-img {
+    width: 35%;
+}
+
+
+
+.gallery-text {
+	width: 65%;
+}
+
+
+
+
+
+
+}
+
+
+
+/*
+====================================
+Xtra Small Screen -  Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+
+.container {
+	padding: 0 15px;
+}
+
+.menu-part {
+    display: block;
+}
+
+
+.logo-part img {
+    max-width: inherit;
+    display: block;
+    margin-bottom: 0px;
+    width: 79px;
+}
+
+
+.nav-areas {
+	display: none;
+}
+
+.nav {
+    background-color: #f0f0f0;
+    padding: 0px 0px;
+    position: absolute;
+    top: 99px;
+    right: 0;
+    width: 100%;
+    display: none;
+}
+
+.logo-area h3 {
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-bottom: 3px;
+}
+
+
+
+.nav-area {
+    background: #fff;
+    padding: 0px 0;
+}
+
+.nav ul li {
+    display: block;
+    padding-right: 0px;
+}
+
+
+.nav ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 16px 22px;
+    transition: 0.3s all ease;
+}
+
+.nav ul li a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.brief-area {
+    padding: 30px 0;
+}
+
+.brief-part {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+}
+
+
+.brief-left h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+
+.brief-left p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+
+
+
+.brief-right img {
+    height: 277px;
+    display: block;
+    width: 100%;
+}
+
+
+.footer-part {
+    display: block;
+    align-items: center;
+}
+
+
+.footer-left {
+    width: 100%;
+}
+
+.footer-right {
+    width: 100%;
+}
+
+.footer-right-text h3 {
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 7px;
+}
+
+
+.footer-right-text ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
+.footer-right-text ul li {
+display: inline-block;
+    padding-left: 0;
+    margin: 4px 0px;
+
+}
+
+
+.social-icon-part ul {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.social-icon-part ul li a {
+    font-size: 20px;
+    width: 39px;
+    height: 39px;
+    display: block;
+    background-color: #cfcfcf;
+    line-height: 39px;
+    text-align: center;
+}
+
+
+.footer-left p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left p span {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.return-btn {
+    text-align: center;
+}
+
+
+.slider1-img img {
+    height: 215px;
+}
+
+
+.contact-part {
+    display: block;
+}
+
+.contact-left {
+    padding-left: 0px;
+}
+
+
+.contact-left h2 {
+    font-size: 27px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.contact-left p br {
+	display: none;
+}
+
+.contact-left p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 31px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.contact-left ul {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.contact-left ul li span {
+    display: block;
+}
+
+.contact-left ul li span img {
+    margin-right: 0px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-bottom: 9px;
+}
+
+
+.contact-form {
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+
+.innerfrom-item1 {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+
+.search-box {
+    width: 100%;
+}
+
+.search-box input[type="submit"] {
+    padding: 7px 9px;
+    width: 25%;
+}
+
+.search-box input[type="search"] {
+    width: 75%;
+}
+
+.gallery-box {
+    display: block;
+}
+
+.gallery-img {
+    height: initial;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.gallery-text {
+    width: 100%;
+    border: 1px solid #dfe1e2;
+    border-radius: 0px 0px 5px 5px;
+    border-left: 1px solid #dfe1e2;
+    padding: 17px;
+    box-sizing: border-box;
+    border-top: none;
+    text-align: center;
+}
+
+
+.gallery-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.gallery-text p {
+    font-size: 14px;
+    font-weight: 400;
+    height: initial;
+    text-align: justify;
+    line-height: 23px;
+    text-align-last: center;
+}
+
+.gallery-text a {
+    font-size: 15px;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.pagination-part {
+    padding-top: 73px;
+    padding-bottom: 25px;
+}
+
+
+.pagination-part ul li a {
+    font-size: 13px;
+    width: 23px;
+    height: 30px;
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 4px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
